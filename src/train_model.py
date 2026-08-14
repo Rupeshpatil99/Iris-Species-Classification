@@ -66,8 +66,16 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 accuracy = accuracy_score(y_test, y_pred)
+
 print("Accuracy:", accuracy)
-print("Accuracy percentage:", accuracy * 100)
+print("Accuracy Percentage:", accuracy * 100)
+
+if accuracy < 0.95:
+    raise ValueError(
+        f"Model accuracy {accuracy:.2%} is below the required 95%."
+    )
+
+print("Model passed the 95% accuracy requirement!")
 
 print("\nClassification Report:")
 print(
