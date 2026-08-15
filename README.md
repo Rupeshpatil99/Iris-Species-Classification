@@ -1,4 +1,4 @@
-# 🌸 Iris Species Classification
+#  Iris Species Classification
 
 A machine learning classification project that predicts the species of an iris flower based on its sepal and petal measurements.
 
@@ -377,27 +377,8 @@ Hyperparameter Optimization
 
 ---
 
-## 📚 Key Data Science Concepts Demonstrated
 
-This project demonstrates practical understanding of:
 
-* Data loading
-* Data cleaning
-* Exploratory Data Analysis
-* Data visualization
-* Feature selection
-* Target variable
-* Train-test splitting
-* Classification
-* Logistic Regression
-* Model prediction
-* Accuracy
-* Precision
-* Recall
-* F1-score
-* Confusion Matrix
-* Model evaluation
-* Machine learning workflow
 
 ---
 
